@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    border: 1px solid #ccc;
+    width: 800px;
+    height: 400px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px #ccc;
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  .row #npru {
+    width: 110px;
+    height: 140px;
+  }
+  .row #profile {
+    width: 140px;
+    height: 180px;
+    margin-right: 10px;
+  }
+  .row #ship {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+  
+  }
+  .row #visa {
+    width: 120px;
+    height: 100px;
+  }
+  .row #classVisa {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+  }
+  .row p {
+    font-size: 20px;
+  }
+  .row #IDcard {
+    font-size: 40px;
+  }
